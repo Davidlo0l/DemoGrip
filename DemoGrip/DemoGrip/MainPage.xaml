@@ -4,8 +4,15 @@
              xmlns:local="clr-namespace:DemoGrip"
              x:Class="DemoGrip.MainPage">
 
-	<Label Text="Welcome to Xamarin.Forms!" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
+    <Grid>
+        <Button Text="Enviar"
+                BackgroundColor="Green">
+            
+        </Button>
+        <Button Text="Cancelar."
+                BackgroundColor="Green">
+            
+        </Button>
+    </Grid>
 
 </ContentPage>

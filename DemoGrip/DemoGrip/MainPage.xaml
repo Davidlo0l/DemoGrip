@@ -29,6 +29,11 @@
             <ColumnDefinition
                 Width="2*"
                 ></ColumnDefinition>
+            <ColumnDefinition
+                Width="*"
+                >
+                
+            </ColumnDefinition>
         </Grid.ColumnDefinitions>   
         
         <Button Text="Enviar"
@@ -68,6 +73,22 @@
                 Grid.Row="3">
 
         </Button>
+        <BoxView BackgroundColor="Aqua"
+                 Grid.Column="2"
+                 
+            ></BoxView>
+        <BoxView BackgroundColor="Aqua"
+                 Grid.Column="2"
+                 Grid.Row="1"
+            ></BoxView>
+        <BoxView BackgroundColor="Aqua"
+                 Grid.Column="2"
+                 Grid.Row="2"
+            ></BoxView>
+        <BoxView BackgroundColor="Aqua"
+                 Grid.Column="2"
+                 Grid.Row="3"
+            ></BoxView>
     </Grid>
 
 </ContentPage>
